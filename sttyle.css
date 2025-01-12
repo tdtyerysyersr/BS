@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    width:100%;
+    height:70px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border-bottom: 2px solid whitesmoke ;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50PX;
+}
+a{
+    text-decoration: none;
+
+}
+.contact{
+    display: flex;
+    float: right;
+    gap: 100px;
+}
+.text{
+   
+    margin-top: 300px;
+    margin: 70px;
+
+}
+#pp{
+    color: #61CDE9;
+    font-family: Circular Std;
+font-size: 15px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.6em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.text>h1{
+    font-family: Circular Std;
+font-size: 66px;
+font-weight: 900;
+line-height: 121.44px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#363E61;
+
+}
+#p{
+    font-family: Circular Std;
+font-size: 20px;
+font-weight: 450;
+line-height: 30px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #727A9A;
+
+}
+button{
+    width: 100px;
+height: 28px;
+top: 623px;
+left: 2090px;
+gap: 0px;
+opacity: 0px;
+font-family: Circular Std;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background-color: #61CDE9;
+color: white;
+border: 2px solid  #31badc;
+margin-top: 50px;
+}
+.main{
+    display: flex;
+    gap: 70px
+    
+}
+#img{
+    margin-top: 150px;
+}
+#ss{
+    margin-left: 60px;
+}
+#btn{
+    float: right;
+    margin-top: 120px;
+    margin-right: 100px;
+}
